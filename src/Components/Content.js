@@ -24,7 +24,7 @@ const ContentBar = (props) => {
             >
               <CheckCircleFilled
                 style={{
-                  marginTop: "10px",
+                  marginTop: "-4px",
                   fontSize: "20px",
                   color: "darkgray",
                 }}
@@ -34,13 +34,13 @@ const ContentBar = (props) => {
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  marginLeft: "10px",
-                  // borderBottom:"1px solid darkgray",
-                  // paddingRight:'60px'
-                }}
+                  marginLeft: "12px",
+                  borderBottom:"1px solid darkgray",
+                  paddingRight:'100px',
+                  }}
               >
-                <Avatar size="large" icon={<UserOutlined />} />
-                <div style={{ flexFlow: "column", marginLeft: "5px" }}>
+                <Avatar size="large" icon={<UserOutlined />} style={{marginBottom:'6px'}} />
+                <div style={{ flexFlow: "column", marginLeft: "8px", marginBottom:'6px' }}>
                   <div
                     className="userName"
                     style={{ fontSize: "14px", fontWeight: "bold" }}
@@ -57,9 +57,9 @@ const ContentBar = (props) => {
                   >
                     +910123456789
                   </div>
-                </div>
+                  </div>
+                  
               </div>
-              <hr/>
               <div className="rightSideIcons" style={{ marginLeft: "auto" }}>
                 <Tag
                   style={{
@@ -80,6 +80,8 @@ const ContentBar = (props) => {
                 />
               </div>
             </div>
+            
+            {/* <div style={{display:'flex'}}>-----</div> */}
 
             {/* <div
               className="userInfo"

@@ -54,7 +54,7 @@ const SideBar = (props) => {
           </div>
           <div className="includeTags mt-5">
             <label style={{ fontWeight: "bold" }}>Include Tags:</label>
-            <ListGroup style={{ marginTop: 10, borderRadius:'12px' }}>
+            <ListGroup style={{ marginTop: 10, borderRadius:'12px', fontSize:'14px' }}>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
               <ListGroup.Item variant="light">Greeting</ListGroup.Item>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
@@ -63,7 +63,7 @@ const SideBar = (props) => {
           </div>
           <div className="excludeTags mt-4">
             <label style={{ fontWeight: "bold" }}>Exclude Tags:</label>
-            <ListGroup style={{ marginTop: 10, marginBottom: 10, borderRadius:'12px' }}>
+            <ListGroup style={{ marginTop: 10, marginBottom: 10, borderRadius:'12px', fontSize:'14px' }}>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
               <ListGroup.Item variant="light">Greeting</ListGroup.Item>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
@@ -79,7 +79,7 @@ const SideBar = (props) => {
                     type="text"
                     className="form-control"
                     placeholder="Min"
-                    style={{backgroundColor:"#e2e3e5"}}
+                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
                 <div className="col">
@@ -87,7 +87,7 @@ const SideBar = (props) => {
                     type="text"
                     className="form-control"
                     placeholder="Max"
-                    style={{backgroundColor:"#e2e3e5"}}
+                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
               </div>
@@ -102,7 +102,7 @@ const SideBar = (props) => {
                     type="text"
                     className="form-control"
                     placeholder="Min"
-                    style={{backgroundColor:"#e2e3e5"}}
+                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
                 <div className="col">
@@ -110,7 +110,7 @@ const SideBar = (props) => {
                     type="text"
                     className="form-control"
                     placeholder="Max"
-                    style={{backgroundColor:"#e2e3e5"}}
+                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
               </div>
