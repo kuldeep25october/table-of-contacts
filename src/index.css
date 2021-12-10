@@ -1,0 +1,50 @@
+@import 'antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.list-group-item .active {
+  border: none !important;
+  border-radius: 16px !important;
+  background-color: #d3d3d3 !important;
+  border-color: #d3d3d3 !important;
+  color: #000 !important;
+}
+.btn-primary{
+  background-color: #26a187 !important;
+  border-color:#26a187 !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+.ant-layout-header {
+  line-height: unset;
+  padding: unset;
+  background-color: unset;
+}
+.ant-input-affix-wrapper{
+top: 40px;
+border-radius: 10px;
+font-size: 14px;
+margin: 2px 0 2px 0;
+}
+.ant-input::placeholder{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 2px; 
+}
+
+.slctAll{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
