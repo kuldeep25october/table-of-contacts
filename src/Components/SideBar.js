@@ -53,7 +53,7 @@ const SideBar = (props) => {
             </div>
           </div>
           <div className="includeTags mt-5">
-            <label style={{ fontWeight: "bold" }}>Include Tags:</label>
+            <label style={{ fontWeight: "bold", fontSize:'14px' }}>Include Tags:</label>
             <ListGroup style={{ marginTop: 10, borderRadius:'12px', fontSize:'14px' }}>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
               <ListGroup.Item variant="light">Greeting</ListGroup.Item>
@@ -62,7 +62,7 @@ const SideBar = (props) => {
             </ListGroup>
           </div>
           <div className="excludeTags mt-4">
-            <label style={{ fontWeight: "bold" }}>Exclude Tags:</label>
+            <label style={{ fontWeight: "bold", fontSize:'14px' }}>Exclude Tags:</label>
             <ListGroup style={{ marginTop: 10, marginBottom: 10, borderRadius:'12px', fontSize:'14px' }}>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
               <ListGroup.Item variant="light">Greeting</ListGroup.Item>
@@ -72,7 +72,7 @@ const SideBar = (props) => {
           </div>
           <div className="msgSent mt-4">
             <div className="form-group">
-              <label style={{ fontWeight: "bold" }}>Message Sent:</label>
+              <label style={{ fontWeight: "bold", fontSize:'14px' }}>Message Sent:</label>
               <div className="row" style={{ marginTop: 10 }}>
                 <div className="col">
                   <input
@@ -95,7 +95,7 @@ const SideBar = (props) => {
           </div>
           <div className="msgRecvd mt-4">
             <div className="form-group">
-              <label style={{ fontWeight: "bold" }}>Message Received:</label>
+              <label style={{ fontWeight: "bold", fontSize:'14px' }}>Message Received:</label>
               <div className="row" style={{ marginTop: 10 }}>
                 <div className="col">
                   <input
