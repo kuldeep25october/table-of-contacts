@@ -15,7 +15,7 @@ const HeaderBar = (props) => {
           <div
             className="font-bold "
             style={{
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "bold",
               position: "absolute",
               top: "6px",
