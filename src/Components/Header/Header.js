@@ -5,6 +5,7 @@ import {
   CheckCircleFilled,
 } from "@ant-design/icons";
 import { Input } from "antd";
+import SelectAll from "../Header/SelectAll";
 
 const HeaderBar = (props) => {
   const { Header } = props;
@@ -13,7 +14,7 @@ const HeaderBar = (props) => {
       <Header>
         <div className="navBar d-flex">
           <div
-            className="font-bold "
+            className="font-bold"
             style={{
               fontSize: "20px",
               fontWeight: "bold",
@@ -23,7 +24,7 @@ const HeaderBar = (props) => {
           >
             All Contacts(100)
           </div>
-          <PlusCircleFilled
+          <PlusCircleFilled onClick={() => alert('hello')}
             style={{
               fontSize: "25px",
               position: "absolute",
@@ -46,13 +47,14 @@ const HeaderBar = (props) => {
           className="btn d-flex"
           style={{ position: "relative", top: "50px", paddingLeft: "0px" }}
         >
-          <CheckCircleFilled
+            <SelectAll />
+          {/* <CheckCircleFilled
             style={{
               fontSize: "20px",
               color: "darkgray",
             }}
           />
-          <div className="slctAll">Select All</div>
+          <div className="slctAll">Select All</div> */}
          <button
             type="submit"
             style={{
