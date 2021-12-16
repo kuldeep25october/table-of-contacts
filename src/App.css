@@ -36,3 +36,192 @@
     transform: rotate(360deg);
   }
 }
+.parentContainer {
+  margin-top: 70px;
+}
+.letterA {
+  font-weight: bold;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.checkCircleFilled {
+  margin-top: -4px;
+  font-size: 20px;
+  color: darkgray;
+}
+.userDetls {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  border-bottom: 1px solid darkgray;
+  padding-right: 100px;
+}
+.userAvatar {
+  margin-bottom: 6px;
+}
+.usrNmeAndCntct {
+  flex-flow: column;
+  margin-left: 8px;
+  margin-bottom: 6px;
+}
+.userName {
+  font-size: 14px;
+  font-weight: bold;
+}
+.contactNo {
+  color: darkgray;
+  font-size: 12px;
+  font-weight: bold;
+}
+.rightSideIcons {
+  margin-left: auto;
+}
+.plusCircleFilled {
+  font-size: 22px;
+  color: #26a187;
+}
+.tags {
+  background-color: #26a187;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2px 35px 2px 16px;
+}
+.list-group-item .active {
+  border: none !important;
+  border-radius: 16px !important;
+  background-color: #d3d3d3 !important;
+  border-color: #d3d3d3 !important;
+  color: #000 !important;
+}
+
+.btn-primary {
+  background-color: #26a187 !important;
+  border-color: #26a187 !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+.ant-layout-header {
+  line-height: unset;
+  padding: unset;
+  background-color: unset;
+}
+
+.ant-input-affix-wrapper {
+  top: 40px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 2px 0 2px 0;
+}
+
+.ant-input::placeholder {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.slctAll {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.siderItems {
+  margin: 10px;
+}
+.siderItemsInner {
+  position: absolute;
+  top: 0;
+}
+.audienceText {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 3rem;
+  top: 5px;
+}
+.contactsUpdateTxt {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  color: darkgray;
+  font-weight: bold;
+}
+.includeTags label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.list-group {
+  margin-top: 10px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+.excludeTags label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.excludeTagsListGroup {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+.form-group label {
+  font-weight: bold;
+  font-size: 14px;
+}
+.form-control {
+  background-color: #e2e3e5 !important;
+  font-size: 14px !important;
+}
+.saveBtn button {
+  width: 93%;
+  position: absolute;
+  bottom: 10px;
+}
+.headerContactsTxt {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 6px;
+}
+.antIconPlusCircle {
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  color: #26a187;
+}
+.fetchContactsSect {
+  position: relative;
+  top: 50px;
+  padding-left: 0px;
+}
+.antIconCheckCircle {
+  font-size: 20px;
+  color: darkgray;
+}
+.fetchContactsSect button {
+  position: absolute;
+  right: 0px;
+  font-size: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 8px;
+  border: unset;
+  background-color: #26a187;
+  color: #fff;
+}
+.mainPage {
+  margin: 10px 10px 10px 15px;
+}
+.layout {
+  height: 100vh;
+}
+.form-group label {
+  margin-bottom: 10px;
+}

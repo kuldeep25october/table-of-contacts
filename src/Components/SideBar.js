@@ -18,43 +18,17 @@ const SideBar = (props) => {
         theme="light"
         width="300px"
       >
-        <div className="siderItems" style={{ margin: "10px" }}>
+        <div className="siderItems">
           <div className="d-flex flex-row ml-5 mr-5">
-            <div
-              className="font-bold fs-4"
-              style={{ position: "absolute", top: 0 }}
-              onClick={() => toggle()}
-            >
+            <div className="siderItemsInner fs-4" onClick={() => toggle()}>
               {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
             </div>
-            <div
-              className="font-bold text-xl-start pl-4"
-              style={{
-                fontSize: "20px",
-                fontWeight: "bold",
-                position: "absolute",
-                left: "3rem",
-                top: "5px",
-              }}
-            >
-              Audience
-            </div>
-            <div
-              style={{
-                position: "absolute",
-                right: 10,
-                fontSize: "14px",
-                color: "darkgray",
-                fontWeight: "bold",
-              }}
-              className="pl-4"
-            >
-              100 Contacts
-            </div>
+            <div className="audienceText text-xl-start pl-4">Audience</div>
+            <div className="contactsUpdateTxt pl-4">100 Contacts</div>
           </div>
           <div className="includeTags mt-5">
-            <label style={{ fontWeight: "bold", fontSize:'14px' }}>Include Tags:</label>
-            <ListGroup style={{ marginTop: 10, borderRadius:'12px', fontSize:'14px' }}>
+            <label>Include Tags:</label>
+            <ListGroup>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
               <ListGroup.Item variant="light">Greeting</ListGroup.Item>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
@@ -62,8 +36,8 @@ const SideBar = (props) => {
             </ListGroup>
           </div>
           <div className="excludeTags mt-4">
-            <label style={{ fontWeight: "bold", fontSize:'14px' }}>Exclude Tags:</label>
-            <ListGroup style={{ marginTop: 10, marginBottom: 10, borderRadius:'12px', fontSize:'14px' }}>
+            <label>Exclude Tags:</label>
+            <ListGroup className="excludeTagsListGroup">
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
               <ListGroup.Item variant="light">Greeting</ListGroup.Item>
               <ListGroup.Item variant="secondary">Greeting</ListGroup.Item>
@@ -72,14 +46,13 @@ const SideBar = (props) => {
           </div>
           <div className="msgSent mt-4">
             <div className="form-group">
-              <label style={{ fontWeight: "bold", fontSize:'14px' }}>Message Sent:</label>
-              <div className="row" style={{ marginTop: 10 }}>
+              <label>Message Sent:</label>
+              <div className="form-group-row row">
                 <div className="col">
                   <input
                     type="text"
                     className="form-control"
                     placeholder="Min"
-                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
                 <div className="col">
@@ -87,7 +60,6 @@ const SideBar = (props) => {
                     type="text"
                     className="form-control"
                     placeholder="Max"
-                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
               </div>
@@ -95,14 +67,13 @@ const SideBar = (props) => {
           </div>
           <div className="msgRecvd mt-4">
             <div className="form-group">
-              <label style={{ fontWeight: "bold", fontSize:'14px' }}>Message Received:</label>
-              <div className="row" style={{ marginTop: 10 }}>
+              <label>Message Received:</label>
+              <div className="row">
                 <div className="col">
                   <input
                     type="text"
                     className="form-control"
                     placeholder="Min"
-                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
                 <div className="col">
@@ -110,22 +81,13 @@ const SideBar = (props) => {
                     type="text"
                     className="form-control"
                     placeholder="Max"
-                    style={{backgroundColor:"#e2e3e5", fontSize:'14px'}}
                   />
                 </div>
               </div>
             </div>
           </div>
           <div className="saveBtn">
-            <button
-              type="submit"
-              class="btn btn-primary"
-              style={{
-                width: "93%",
-                position: "absolute",
-                bottom: "10px",
-              }}
-            >
+            <button type="submit" class="btn btn-primary">
               Save Filters
             </button>
           </div>

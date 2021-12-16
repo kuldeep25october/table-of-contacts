@@ -1,17 +1,15 @@
 import React from "react";
-import AlphabetA from "../Components/AlphabetA";
+import UsersData from "./UsersData";
 
 const ContentBar = (props) => {
   const { Content, children } = props;
   return (
     <>
       <Content>
-        <AlphabetA />
-        
+        <UsersData />
         {children}
       </Content>
     </>
   );
 };
-
 export default ContentBar;
